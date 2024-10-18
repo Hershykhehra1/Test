@@ -1,0 +1,89 @@
+body {
+  background-image: linear-gradient(120deg, #2980b9, #8e44ad);
+  min-height: 100vh;
+  text-align: center;
+  margin: auto;
+  padding: auto;
+}
+header {
+  background-color: #6b7074;   
+  font-size: 12px;
+  text-align: right;
+  width: 100%;
+}
+.web{
+  color: orange;
+  font-size: 15px; 
+}
+
+a {
+  word-spacing: 10px;
+  padding: 5px;
+  text-align: right;
+  color: greenyellow;
+}
+#p{
+  text-align: right;
+  padding: 5px;
+}
+#text {
+  color: white;
+  text-align: center;
+}
+.l:visited {
+  color: greenyellow;
+}
+
+a:hover {
+  color: hotpink;
+}
+a:active {
+  color: blue;
+}
+a:link{
+  color: orange;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #6b7074;
+  font-size: 12;
+  text-align: center;
+}
+.table{
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+.table-base{
+  display: table-row;
+  font-weight:bold;
+}
+.row{
+  display: table-row;
+  font-weight:bold;
+}
+.column {
+  display: table-cell;
+  color: black;
+  border-bottom: 1px grey solid;
+  flex: 1;
+}
+.row:link{
+  color: orange;
+}
+.row:active{
+  color: hotpink
+}
+.row:visited{
+  color: yellowgreen;
+}
+.row:hover{
+  background-color: lightblue;
+}
+.title{
+  font-weight: bold;
+  font-size: 35px;
+  text-align: left;
+}
